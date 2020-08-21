@@ -129,7 +129,7 @@ WHERE transaction_type = 'TOPUP'
 
 --------------------------------------------------
 -- On the challenge to customize the compressed
--- table name, the ff is the closest that
+-- table file output extension name
 --------------------------------------------------
 SET hive.exec.compress.output=true;
 SET mapreduce.output.fileoutputformat.compress.codec=org.apache.hadoop.io.compress.GzipCodec;
